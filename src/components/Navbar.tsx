@@ -21,7 +21,7 @@ export default function Navbar() {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-cyan to-accent-purple flex items-center justify-center">
               <Zap className="w-5 h-5 text-white" />
             </div>
-            <span className="text-lg font-bold text-gradient">Fluxora AI</span>
+            <span className="text-lg font-bold text-gradient">Kairos AI</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">

@@ -49,7 +49,7 @@ export async function POST(request: Request) {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             ...lead,
-            source: "fluxora-landing-page",
+            source: "kairos-landing-page",
             timestamp: new Date().toISOString(),
           }),
         });
