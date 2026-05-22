@@ -14,7 +14,7 @@ const INITIAL_MESSAGE: ChatMessage = {
   id: "welcome",
   role: "bot",
   content:
-    "Olá! Sou a assistente virtual da Fluxora AI. Como posso ajudar você hoje? Posso falar sobre nossos serviços de automação, planos ou agendar uma demonstração.",
+    "Olá! Sou a assistente virtual da Fluxora AI. Como posso ajudar você hoje? Posso falar sobre nossos serviços de automação ou agendar uma demonstração.",
   timestamp: new Date(),
 };
 
@@ -96,7 +96,7 @@ export default function ChatWidget() {
       )}
 
       {isOpen && (
-        <div className="fixed bottom-6 right-6 z-50 w-[360px] max-w-[calc(100vw-2rem)] h-[500px] max-h-[calc(100vh-6rem)] glass-card rounded-2xl flex flex-col overflow-hidden glow-cyan border border-accent-cyan/20">
+        <div className="fixed bottom-6 right-6 z-50 w-[360px] max-w-[calc(100vw-2rem)] h-[500px] max-h-[calc(100vh-6rem)] rounded-2xl flex flex-col overflow-hidden glow-cyan border border-accent-cyan/20 bg-[#0a0a1a]">
           <div className="flex items-center justify-between px-4 py-3 border-b border-glass-border bg-gradient-to-r from-accent-cyan/10 to-accent-purple/10">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-accent-cyan to-accent-purple flex items-center justify-center">

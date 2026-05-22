@@ -20,12 +20,6 @@ export default function Footer() {
               Recursos
             </a>
             <a
-              href="#pricing"
-              className="hover:text-accent-cyan transition-colors"
-            >
-              Planos
-            </a>
-            <a
               href="#contact"
               className="hover:text-accent-cyan transition-colors"
             >
