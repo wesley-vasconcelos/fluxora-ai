@@ -13,19 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fluxora AI — Automação Inteligente de Tarefas com IA",
+  title: "Kairos AI — Automação Inteligente de Tarefas com IA",
   description:
-    "Transforme seu negócio com automação inteligente. A Fluxora AI elimina tarefas repetitivas, otimiza processos e impulsiona resultados com inteligência artificial de ponta.",
+    "Transforme seu negócio com automação inteligente. A Kairos AI elimina tarefas repetitivas, otimiza processos e impulsiona resultados com inteligência artificial de ponta.",
   keywords: [
     "automação",
     "inteligência artificial",
     "IA",
     "automação de tarefas",
     "produtividade",
-    "Fluxora AI",
+    "Kairos AI",
   ],
   openGraph: {
-    title: "Fluxora AI — Automação Inteligente de Tarefas com IA",
+    title: "Kairos AI — Automação Inteligente de Tarefas com IA",
     description:
       "Elimine tarefas repetitivas e escale seu negócio com automação inteligente powered by IA.",
     type: "website",

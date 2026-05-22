@@ -7,9 +7,9 @@ interface ChatRequest {
 
 const FAQ_RESPONSES: Record<string, string> = {
   preco:
-    "Nossos planos começam em R$497/mês (Starter). O plano Pro é R$997/mês e o Enterprise é personalizado. Todos incluem 14 dias de teste gratuito!",
+    "Os valores dos nossos serviços são personalizados de acordo com a necessidade de cada cliente. Entre em contato pelo formulário acima para receber uma proposta!",
   plano:
-    "Temos 3 planos: Starter (R$497/mês), Pro (R$997/mês) e Enterprise (sob consulta). Quer saber mais sobre algum deles?",
+    "Nossos planos são personalizados para cada cliente. Preencha o formulário de contato e nossa equipe entrará em contato com uma proposta sob medida!",
   servico:
     "Oferecemos automação de fluxos de trabalho, chatbots com IA, integração de sistemas, analytics avançado e agentes autônomos. Tudo personalizado para seu negócio.",
   funciona:
@@ -43,7 +43,7 @@ function findBestResponse(message: string): string {
     normalizedMsg.includes("boa tarde") ||
     normalizedMsg.includes("boa noite")
   ) {
-    return "Olá! Bem-vindo à Fluxora AI! Como posso ajudar? Posso falar sobre nossos serviços, planos ou agendar uma demonstração.";
+    return "Olá! Bem-vindo à Kairos AI! Como posso ajudar? Posso falar sobre nossos serviços ou agendar uma demonstração.";
   }
 
   if (
@@ -54,7 +54,7 @@ function findBestResponse(message: string): string {
     return "Por nada! Se tiver mais alguma dúvida, estou aqui. Você também pode preencher o formulário de contato para falar com nossa equipe.";
   }
 
-  return "Obrigado pela sua mensagem! Para te atender melhor, preencha o formulário de contato acima ou me pergunte sobre nossos serviços, planos e integrações.";
+  return "Obrigado pela sua mensagem! Para te atender melhor, preencha o formulário de contato acima ou me pergunte sobre nossos serviços e integrações.";
 }
 
 export async function POST(request: Request) {
@@ -78,7 +78,7 @@ export async function POST(request: Request) {
           body: JSON.stringify({
             message: body.message,
             history: body.history || [],
-            source: "fluxora-chat-widget",
+            source: "kairos-chat-widget",
             timestamp: new Date().toISOString(),
           }),
         });
