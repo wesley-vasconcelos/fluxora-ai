@@ -64,7 +64,7 @@ export default function Hero() {
             href="#contact"
             className="btn-primary px-8 py-3.5 rounded-xl text-white font-semibold flex items-center gap-2 text-base"
           >
-            Comece Gratuitamente
+            Comece 
             <ArrowRight className="w-5 h-5" />
           </a>
           <a
